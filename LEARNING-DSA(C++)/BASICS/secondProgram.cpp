@@ -5,7 +5,7 @@ int main(){
     int marks;
     cout << "Enter your marks:";
     cin >> marks;
-
+    
     if(marks>33)
     cout << "pass";
     else 
