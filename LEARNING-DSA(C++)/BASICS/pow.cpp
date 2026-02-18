@@ -1,15 +1,17 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int n , pow;
+    int n , pow ,num;
     cout << "enter the number:" ;
     cin >> n;
     cout << "enter the power:";
     cin >> pow;
+
+    num = n;
     for (int i=1; i<pow ;i++){
-        n = n*n;
+        num = num*n;
     }
 
-    cout << "the required answer is : " << n;
+    cout << "the required answer is : " << num;
     return 0;
 }
