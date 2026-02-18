@@ -10,3 +10,11 @@ int main(){
     cout << "answer:" << fact;
     return 0;
 }
+
+
+
+
+
+
+
+
