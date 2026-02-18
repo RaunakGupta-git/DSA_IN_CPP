@@ -27,4 +27,4 @@ int main()
         cout << "number is not prime!!";
     }
     return 0;
-}
+} 
