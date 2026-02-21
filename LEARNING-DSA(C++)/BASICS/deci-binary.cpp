@@ -9,8 +9,8 @@ int main(){
 
     while(num>0){
         rem = num%2;
-        num = num/2;
-        ans = rem * mul + ans;
+        num >>= 1;
+        ans += rem * mul;
         mul*=10;    
     }
 

@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    int rem,ans=0,mul=1,num;
+    cout << "enter the number: " ;
+    cin >> num;
+
+    while(num>0){
+        rem=num%8;
+        num/=8;
+        ans += rem*mul;
+        mul *=10;
+    }
+    cout << "the required octa form is : " << ans;
+}
