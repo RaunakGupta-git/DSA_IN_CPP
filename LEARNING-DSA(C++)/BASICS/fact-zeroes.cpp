@@ -8,3 +8,8 @@ int main(){
     int c = 0;
     while(n > 0){
         n /= 5;
+        c += n;
+    }
+    cout << c << " zeroes in given number";
+    return 0;
+}
